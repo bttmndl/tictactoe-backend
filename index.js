@@ -33,5 +33,5 @@ io.on("connection", (socket)=>{
 })
 
 server.listen(4000, (req, res)=>{
-    console.log("server is running at port 4000")
+    console.log("server is running att port 4000")
 })
