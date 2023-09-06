@@ -8,8 +8,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin:
-      "https://64f8c207692971112ecd39cd--fantastic-swan-79092d.netlify.app",
+    origin: "https://fantastic-swan-79092d.netlify.app",
     methods: ["GET", "POST"],
   },
 });
